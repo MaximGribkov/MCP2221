@@ -8,7 +8,6 @@ The program was tested in the following configuration: mcp2221 and one mcp4561 p
 The search for the chip address is performed in a 7-bit range, it is the same as 8-bit. For writing, a list is sent in which the first element is always 0. 
 This is very important because the write will not be made. For more information, please see the datasheet.
 
-In Russian:
 
 Программа для записи, чтения с чипа и поиска адреса чипа. Функцианал реализиван с помощью PyQT6 и PyMCP2221A https://github.com/nonNoise/PyMCP2221A
 Более подробное описание работы есть в даташите https://supply24.online/doc/manual/Poluprovodniki/Mikroshemi/MICROCHIP-TECHNOLOGY/mcp2221.pdf 
